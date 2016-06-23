@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25402.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libsoundio.NET", "libsoundio.NET\libsoundio.NET.csproj", "{F0E8AF69-9162-4FB9-A7FC-762CD50F4270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sio_sine", "Examples\sio_sine\sio_sine.csproj", "{360059BE-C615-431F-A898-BE84EC2EC583}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0E8AF69-9162-4FB9-A7FC-762CD50F4270} = {F0E8AF69-9162-4FB9-A7FC-762CD50F4270}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sio_list_devices", "Examples\sio_list_devices\sio_list_devices.csproj", "{E49EC175-84F6-45B4-AAF4-255F1E4CE95A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0E8AF69-9162-4FB9-A7FC-762CD50F4270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E8AF69-9162-4FB9-A7FC-762CD50F4270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E8AF69-9162-4FB9-A7FC-762CD50F4270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E8AF69-9162-4FB9-A7FC-762CD50F4270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360059BE-C615-431F-A898-BE84EC2EC583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360059BE-C615-431F-A898-BE84EC2EC583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360059BE-C615-431F-A898-BE84EC2EC583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360059BE-C615-431F-A898-BE84EC2EC583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49EC175-84F6-45B4-AAF4-255F1E4CE95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49EC175-84F6-45B4-AAF4-255F1E4CE95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49EC175-84F6-45B4-AAF4-255F1E4CE95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49EC175-84F6-45B4-AAF4-255F1E4CE95A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
